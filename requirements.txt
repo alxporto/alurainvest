@@ -1,6 +1,30 @@
-coverage   (!) 7.2.7 Code coverage measurement for Python
-iniconfig  (!) 2.0.0 brain-dead simple config-ini parsing
-packaging  (!) 23.1  Core utilities for Python packages
-pluggy     (!) 1.2.0 plugin and hook calling mechanisms for python
-pytest     (!) 7.4.0 pytest: simple powerful testing with Python
-pytest-cov (!) 4.1.0 Pytest plugin for measuring coverage.
+argcomplete        3.1.1   Bash tab completion for argparse
+cfgv               3.4.0   Validate configuration and produce human readabl...
+charset-normalizer 3.2.0   The Real First Universal Charset Detector. Open,...
+colorama           0.4.6   Cross-platform colored terminal text.
+commitizen         3.8.0   Python commitizen client tool
+coverage           7.2.7   Code coverage measurement for Python
+decli              0.6.1   Minimal, easy-to-use, declarative cli tool
+distlib            0.3.7   Distribution utilities
+filelock           3.12.3  A platform independent file lock.
+identify           2.5.27  File identification library for Python
+importlib-metadata 6.8.0   Read metadata from Python packages
+iniconfig          2.0.0   brain-dead simple config-ini parsing
+jinja2             3.1.2   A very fast and expressive template engine.
+markupsafe         2.1.3   Safely add untrusted strings to HTML/XML markup.
+nodeenv            1.8.0   Node.js virtual environment builder
+packaging          23.1    Core utilities for Python packages
+platformdirs       3.10.0  A small Python package for determining appropria...
+pluggy             1.2.0   plugin and hook calling mechanisms for python
+pre-commit         3.4.0   A framework for managing and maintaining multi-l...
+prompt-toolkit     3.0.39  Library for building powerful interactive comman...
+pytest             7.4.0   pytest: simple powerful testing with Python
+pytest-cov         4.1.0   Pytest plugin for measuring coverage.
+pyyaml             6.0.1   YAML parser and emitter for Python
+questionary        1.10.0  Python library to build pretty command line user...
+setuptools         68.2.0  Easily download, build, install, upgrade, and un...
+termcolor          2.3.0   ANSI color formatting for output in terminal
+tomlkit            0.12.1  Style preserving TOML library
+virtualenv         20.24.4 Virtual Python Environment builder
+wcwidth            0.2.6   Measures the displayed width of unicode strings ...
+zipp               3.16.2  Backport of pathlib-compatible object wrapper fo...
