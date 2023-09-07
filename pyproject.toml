@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "aluradigital"
+name = "alurainvest"
 version = "0.1.0"
 description = ""
 authors = ["datalastix <datalastix@gmail.com>"]
@@ -7,7 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pytest = "^7.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
@@ -16,7 +23,3 @@ version_scheme = "semver"
 version = "0.0.1"
 update_changelog_on_bump = true
 major_version_zero = true
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
