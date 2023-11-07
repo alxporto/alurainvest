@@ -14,10 +14,6 @@ pre-commit = "^3.4.0"
 pytest = "*"
 pytest-cov = "*"
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
 [tool.commitizen]
 name = "cz_conventional_commits"
 tag_format = "$version"
@@ -25,3 +21,7 @@ version_scheme = "semver"
 version = "0.0.1"
 update_changelog_on_bump = true
 major_version_zero = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
